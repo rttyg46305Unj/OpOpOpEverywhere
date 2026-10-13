@@ -226,7 +226,7 @@ bool Render::Init() {
     ID3DXBuffer *code;
 
     globalWindow = new WindowWin32();
-    if (!globalWindow->init(windowWidth, windowHeight, "Scratch Everywhere!")) {
+    if (!globalWindow->init(windowWidth, windowHeight, "op op op Everywhere!")) {
         delete globalWindow;
         globalWindow = nullptr;
         return false;
