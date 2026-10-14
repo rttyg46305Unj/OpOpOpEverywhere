@@ -11,7 +11,7 @@ SCRATCH_BLOCK_DOUBLE(operator, add) {
     double num1, num2;
     if (!Scratch::getInputValueAs(block, "NUM1", thread, sprite, num1) ||
         !Scratch::getInputValueAs(block, "NUM2", thread, sprite, num2)) return BlockResult::REPEAT;
-    *outValue = num1 + num2
+    *outValue = num1 + num2;
 
     return BlockResult::CONTINUE;
 }
