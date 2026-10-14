@@ -5,7 +5,7 @@
 #include <types.hpp>
 #include <value.hpp>
 
-constexpr unsigned int MAX_LIST_ITEMS = 200000;
+constexpr unsigned int MAX_LIST_ITEMS = 276300;
 
 SCRATCH_BLOCK(data, setvariableto) {
     Value value;
