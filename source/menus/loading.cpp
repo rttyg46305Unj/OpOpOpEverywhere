@@ -58,7 +58,7 @@ void Loading::render() {
     ImageRenderParams p2 = {
         .x = Render::getWidth() / 2.0f,
         .y = block2Y,
-        .scale = 5f,
+        .scale = 0.6f,
         .centered = true};
     ImageRenderParams p3 = {
         .x = Render::getWidth() / 2.0f,
