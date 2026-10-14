@@ -56,6 +56,6 @@ void OS::deInitWifi() {
 }
 
 std::string OS::getUsername() {
-    // TODO: implement
-    return "Player";
+    // TODO: unplement
+    return "PSP_Man";
 }
